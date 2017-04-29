@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1DA7EB1EB37233002B8D4D /* SecondTableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1DA7EA1EB37233002B8D4D /* SecondTableList.swift */; };
+		DE41F63D1EAA41CF00573F8F /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41F63C1EAA41CF00573F8F /* SecondTableViewController.swift */; };
 		DE740B151EA9178A00CC9367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE740B141EA9178A00CC9367 /* AppDelegate.swift */; };
 		DE740B171EA9178A00CC9367 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE740B161EA9178A00CC9367 /* FirstTableViewController.swift */; };
 		DE740B1A1EA9178A00CC9367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE740B181EA9178A00CC9367 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE1DA7EA1EB37233002B8D4D /* SecondTableList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableList.swift; sourceTree = "<group>"; };
+		DE41F63C1EAA41CF00573F8F /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondTableViewController.swift; path = ../SecondTableViewController.swift; sourceTree = "<group>"; };
 		DE740B111EA9178A00CC9367 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE740B141EA9178A00CC9367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE740B161EA9178A00CC9367 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				DE740B141EA9178A00CC9367 /* AppDelegate.swift */,
 				DE740B161EA9178A00CC9367 /* FirstTableViewController.swift */,
+				DE41F63C1EAA41CF00573F8F /* SecondTableViewController.swift */,
+				DE1DA7EA1EB37233002B8D4D /* SecondTableList.swift */,
 				DE740B181EA9178A00CC9367 /* Main.storyboard */,
 				DE740B1B1EA9178A00CC9367 /* Assets.xcassets */,
 				DE740B1D1EA9178A00CC9367 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1DA7EB1EB37233002B8D4D /* SecondTableList.swift in Sources */,
 				DE740B171EA9178A00CC9367 /* FirstTableViewController.swift in Sources */,
+				DE41F63D1EAA41CF00573F8F /* SecondTableViewController.swift in Sources */,
 				DE740B151EA9178A00CC9367 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				DE740B251EA9178A00CC9367 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
