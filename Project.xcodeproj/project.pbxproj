@@ -7,8 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0694241EB5053600AC26F4 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0694231EB5053600AC26F4 /* ImageViewController.swift */; };
+		DE0694261EB514E500AC26F4 /* SubCategoryImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0694251EB514E500AC26F4 /* SubCategoryImages.swift */; };
+		DE0694281EB51DAC00AC26F4 /* Affinity Exports in Resources */ = {isa = PBXBuildFile; fileRef = DE0694271EB51DAC00AC26F4 /* Affinity Exports */; };
+		DE0694441EB5364300AC26F4 /* 2PositionDetentValve.png in Resources */ = {isa = PBXBuildFile; fileRef = DE06942B1EB5364300AC26F4 /* 2PositionDetentValve.png */; };
+		DE0694451EB5364300AC26F4 /* 3WayBallValve.png in Resources */ = {isa = PBXBuildFile; fileRef = DE06942C1EB5364300AC26F4 /* 3WayBallValve.png */; };
+		DE0694461EB5364300AC26F4 /* 4:3WayConnectedToTank.png in Resources */ = {isa = PBXBuildFile; fileRef = DE06942D1EB5364300AC26F4 /* 4:3WayConnectedToTank.png */; };
+		DE0694471EB5364300AC26F4 /* 4:3WayPositionValve.png in Resources */ = {isa = PBXBuildFile; fileRef = DE06942E1EB5364300AC26F4 /* 4:3WayPositionValve.png */; };
+		DE0694481EB5364300AC26F4 /* Accumulators.png in Resources */ = {isa = PBXBuildFile; fileRef = DE06942F1EB5364300AC26F4 /* Accumulators.png */; };
+		DE0694491EB5364300AC26F4 /* BallValve.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694301EB5364300AC26F4 /* BallValve.png */; };
+		DE06944A1EB5364300AC26F4 /* Check:ShutOffValve.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694311EB5364300AC26F4 /* Check:ShutOffValve.png */; };
+		DE06944B1EB5364300AC26F4 /* Cylinders.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694321EB5364300AC26F4 /* Cylinders.png */; };
+		DE06944C1EB5364300AC26F4 /* DirectionalValve.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694331EB5364300AC26F4 /* DirectionalValve.png */; };
+		DE06944D1EB5364300AC26F4 /* ElectricallyOperatedPRV.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694341EB5364300AC26F4 /* ElectricallyOperatedPRV.png */; };
+		DE06944E1EB5364300AC26F4 /* FlowControlValve.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694351EB5364300AC26F4 /* FlowControlValve.png */; };
+		DE06944F1EB5364300AC26F4 /* HydraulicFilter.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694361EB5364300AC26F4 /* HydraulicFilter.png */; };
+		DE0694501EB5364300AC26F4 /* HydraulicFlowLine.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694371EB5364300AC26F4 /* HydraulicFlowLine.png */; };
+		DE0694511EB5364300AC26F4 /* ManifoldAssemblyBoundaries.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694381EB5364300AC26F4 /* ManifoldAssemblyBoundaries.png */; };
+		DE0694521EB5364300AC26F4 /* MeterIn:OutFCV.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694391EB5364300AC26F4 /* MeterIn:OutFCV.png */; };
+		DE0694531EB5364300AC26F4 /* PilotFlowLine.png in Resources */ = {isa = PBXBuildFile; fileRef = DE06943A1EB5364300AC26F4 /* PilotFlowLine.png */; };
+		DE0694541EB5364300AC26F4 /* PilotOperatedCheckValve.png in Resources */ = {isa = PBXBuildFile; fileRef = DE06943B1EB5364300AC26F4 /* PilotOperatedCheckValve.png */; };
+		DE0694551EB5364300AC26F4 /* PilotOperatedDV.png in Resources */ = {isa = PBXBuildFile; fileRef = DE06943C1EB5364300AC26F4 /* PilotOperatedDV.png */; };
+		DE0694561EB5364300AC26F4 /* PressureReducingValves.png in Resources */ = {isa = PBXBuildFile; fileRef = DE06943D1EB5364300AC26F4 /* PressureReducingValves.png */; };
+		DE0694571EB5364300AC26F4 /* PressureReliefValve.png in Resources */ = {isa = PBXBuildFile; fileRef = DE06943E1EB5364300AC26F4 /* PressureReliefValve.png */; };
+		DE0694581EB5364300AC26F4 /* ProportionalDV.png in Resources */ = {isa = PBXBuildFile; fileRef = DE06943F1EB5364300AC26F4 /* ProportionalDV.png */; };
+		DE0694591EB5364300AC26F4 /* PumpAndMotor.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694401EB5364300AC26F4 /* PumpAndMotor.png */; };
+		DE06945A1EB5364300AC26F4 /* ShuttleValve.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694411EB5364300AC26F4 /* ShuttleValve.png */; };
+		DE06945B1EB5364300AC26F4 /* ValveActivationTypes.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694421EB5364300AC26F4 /* ValveActivationTypes.png */; };
+		DE06945C1EB5364300AC26F4 /* WaterCooler.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0694431EB5364300AC26F4 /* WaterCooler.png */; };
 		DE1DA7EB1EB37233002B8D4D /* SecondTableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1DA7EA1EB37233002B8D4D /* SecondTableList.swift */; };
 		DE41F63D1EAA41CF00573F8F /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41F63C1EAA41CF00573F8F /* SecondTableViewController.swift */; };
+		DE43BE0C1EBE2656000BDFFF /* Icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = DE43BE061EBE2656000BDFFF /* Icon1.png */; };
+		DE43BE0D1EBE2656000BDFFF /* Icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = DE43BE071EBE2656000BDFFF /* Icon2.png */; };
+		DE43BE0E1EBE2656000BDFFF /* Icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = DE43BE081EBE2656000BDFFF /* Icon3.png */; };
+		DE43BE0F1EBE2656000BDFFF /* Icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = DE43BE091EBE2656000BDFFF /* Icon4.png */; };
+		DE43BE101EBE2656000BDFFF /* Icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = DE43BE0A1EBE2656000BDFFF /* Icon5.png */; };
+		DE43BE111EBE2656000BDFFF /* Icon6.png in Resources */ = {isa = PBXBuildFile; fileRef = DE43BE0B1EBE2656000BDFFF /* Icon6.png */; };
 		DE740B151EA9178A00CC9367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE740B141EA9178A00CC9367 /* AppDelegate.swift */; };
 		DE740B171EA9178A00CC9367 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE740B161EA9178A00CC9367 /* FirstTableViewController.swift */; };
 		DE740B1A1EA9178A00CC9367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE740B181EA9178A00CC9367 /* Main.storyboard */; };
@@ -17,8 +51,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE0694231EB5053600AC26F4 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		DE0694251EB514E500AC26F4 /* SubCategoryImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryImages.swift; sourceTree = "<group>"; };
+		DE0694271EB51DAC00AC26F4 /* Affinity Exports */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Affinity Exports"; sourceTree = "<group>"; };
+		DE06942B1EB5364300AC26F4 /* 2PositionDetentValve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2PositionDetentValve.png; sourceTree = "<group>"; };
+		DE06942C1EB5364300AC26F4 /* 3WayBallValve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3WayBallValve.png; sourceTree = "<group>"; };
+		DE06942D1EB5364300AC26F4 /* 4:3WayConnectedToTank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4:3WayConnectedToTank.png"; sourceTree = "<group>"; };
+		DE06942E1EB5364300AC26F4 /* 4:3WayPositionValve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4:3WayPositionValve.png"; sourceTree = "<group>"; };
+		DE06942F1EB5364300AC26F4 /* Accumulators.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Accumulators.png; sourceTree = "<group>"; };
+		DE0694301EB5364300AC26F4 /* BallValve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BallValve.png; sourceTree = "<group>"; };
+		DE0694311EB5364300AC26F4 /* Check:ShutOffValve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Check:ShutOffValve.png"; sourceTree = "<group>"; };
+		DE0694321EB5364300AC26F4 /* Cylinders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cylinders.png; sourceTree = "<group>"; };
+		DE0694331EB5364300AC26F4 /* DirectionalValve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DirectionalValve.png; sourceTree = "<group>"; };
+		DE0694341EB5364300AC26F4 /* ElectricallyOperatedPRV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElectricallyOperatedPRV.png; sourceTree = "<group>"; };
+		DE0694351EB5364300AC26F4 /* FlowControlValve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlowControlValve.png; sourceTree = "<group>"; };
+		DE0694361EB5364300AC26F4 /* HydraulicFilter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HydraulicFilter.png; sourceTree = "<group>"; };
+		DE0694371EB5364300AC26F4 /* HydraulicFlowLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HydraulicFlowLine.png; sourceTree = "<group>"; };
+		DE0694381EB5364300AC26F4 /* ManifoldAssemblyBoundaries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ManifoldAssemblyBoundaries.png; sourceTree = "<group>"; };
+		DE0694391EB5364300AC26F4 /* MeterIn:OutFCV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MeterIn:OutFCV.png"; sourceTree = "<group>"; };
+		DE06943A1EB5364300AC26F4 /* PilotFlowLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PilotFlowLine.png; sourceTree = "<group>"; };
+		DE06943B1EB5364300AC26F4 /* PilotOperatedCheckValve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PilotOperatedCheckValve.png; sourceTree = "<group>"; };
+		DE06943C1EB5364300AC26F4 /* PilotOperatedDV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PilotOperatedDV.png; sourceTree = "<group>"; };
+		DE06943D1EB5364300AC26F4 /* PressureReducingValves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PressureReducingValves.png; sourceTree = "<group>"; };
+		DE06943E1EB5364300AC26F4 /* PressureReliefValve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PressureReliefValve.png; sourceTree = "<group>"; };
+		DE06943F1EB5364300AC26F4 /* ProportionalDV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProportionalDV.png; sourceTree = "<group>"; };
+		DE0694401EB5364300AC26F4 /* PumpAndMotor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PumpAndMotor.png; sourceTree = "<group>"; };
+		DE0694411EB5364300AC26F4 /* ShuttleValve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShuttleValve.png; sourceTree = "<group>"; };
+		DE0694421EB5364300AC26F4 /* ValveActivationTypes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ValveActivationTypes.png; sourceTree = "<group>"; };
+		DE0694431EB5364300AC26F4 /* WaterCooler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WaterCooler.png; sourceTree = "<group>"; };
 		DE1DA7EA1EB37233002B8D4D /* SecondTableList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableList.swift; sourceTree = "<group>"; };
 		DE41F63C1EAA41CF00573F8F /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondTableViewController.swift; path = ../SecondTableViewController.swift; sourceTree = "<group>"; };
+		DE43BE061EBE2656000BDFFF /* Icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon1.png; sourceTree = "<group>"; };
+		DE43BE071EBE2656000BDFFF /* Icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon2.png; sourceTree = "<group>"; };
+		DE43BE081EBE2656000BDFFF /* Icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon3.png; sourceTree = "<group>"; };
+		DE43BE091EBE2656000BDFFF /* Icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon4.png; sourceTree = "<group>"; };
+		DE43BE0A1EBE2656000BDFFF /* Icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon5.png; sourceTree = "<group>"; };
+		DE43BE0B1EBE2656000BDFFF /* Icon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon6.png; sourceTree = "<group>"; };
 		DE740B111EA9178A00CC9367 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE740B141EA9178A00CC9367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE740B161EA9178A00CC9367 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
@@ -61,11 +129,45 @@
 				DE740B141EA9178A00CC9367 /* AppDelegate.swift */,
 				DE740B161EA9178A00CC9367 /* FirstTableViewController.swift */,
 				DE41F63C1EAA41CF00573F8F /* SecondTableViewController.swift */,
+				DE0694231EB5053600AC26F4 /* ImageViewController.swift */,
 				DE1DA7EA1EB37233002B8D4D /* SecondTableList.swift */,
+				DE0694251EB514E500AC26F4 /* SubCategoryImages.swift */,
 				DE740B181EA9178A00CC9367 /* Main.storyboard */,
+				DE06942B1EB5364300AC26F4 /* 2PositionDetentValve.png */,
+				DE06942C1EB5364300AC26F4 /* 3WayBallValve.png */,
+				DE06942D1EB5364300AC26F4 /* 4:3WayConnectedToTank.png */,
+				DE06942E1EB5364300AC26F4 /* 4:3WayPositionValve.png */,
+				DE06942F1EB5364300AC26F4 /* Accumulators.png */,
+				DE0694301EB5364300AC26F4 /* BallValve.png */,
+				DE43BE061EBE2656000BDFFF /* Icon1.png */,
+				DE43BE071EBE2656000BDFFF /* Icon2.png */,
+				DE43BE081EBE2656000BDFFF /* Icon3.png */,
+				DE43BE091EBE2656000BDFFF /* Icon4.png */,
+				DE43BE0A1EBE2656000BDFFF /* Icon5.png */,
+				DE43BE0B1EBE2656000BDFFF /* Icon6.png */,
+				DE0694311EB5364300AC26F4 /* Check:ShutOffValve.png */,
+				DE0694321EB5364300AC26F4 /* Cylinders.png */,
+				DE0694331EB5364300AC26F4 /* DirectionalValve.png */,
+				DE0694341EB5364300AC26F4 /* ElectricallyOperatedPRV.png */,
+				DE0694351EB5364300AC26F4 /* FlowControlValve.png */,
+				DE0694361EB5364300AC26F4 /* HydraulicFilter.png */,
+				DE0694371EB5364300AC26F4 /* HydraulicFlowLine.png */,
+				DE0694381EB5364300AC26F4 /* ManifoldAssemblyBoundaries.png */,
+				DE0694391EB5364300AC26F4 /* MeterIn:OutFCV.png */,
+				DE06943A1EB5364300AC26F4 /* PilotFlowLine.png */,
+				DE06943B1EB5364300AC26F4 /* PilotOperatedCheckValve.png */,
+				DE06943C1EB5364300AC26F4 /* PilotOperatedDV.png */,
+				DE06943D1EB5364300AC26F4 /* PressureReducingValves.png */,
+				DE06943E1EB5364300AC26F4 /* PressureReliefValve.png */,
+				DE06943F1EB5364300AC26F4 /* ProportionalDV.png */,
+				DE0694401EB5364300AC26F4 /* PumpAndMotor.png */,
+				DE0694411EB5364300AC26F4 /* ShuttleValve.png */,
+				DE0694421EB5364300AC26F4 /* ValveActivationTypes.png */,
+				DE0694431EB5364300AC26F4 /* WaterCooler.png */,
 				DE740B1B1EA9178A00CC9367 /* Assets.xcassets */,
 				DE740B1D1EA9178A00CC9367 /* LaunchScreen.storyboard */,
 				DE740B201EA9178A00CC9367 /* Info.plist */,
+				DE0694271EB51DAC00AC26F4 /* Affinity Exports */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -129,9 +231,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE43BE0C1EBE2656000BDFFF /* Icon1.png in Resources */,
 				DE740B1F1EA9178A00CC9367 /* LaunchScreen.storyboard in Resources */,
+				DE0694591EB5364300AC26F4 /* PumpAndMotor.png in Resources */,
+				DE06944F1EB5364300AC26F4 /* HydraulicFilter.png in Resources */,
+				DE06944A1EB5364300AC26F4 /* Check:ShutOffValve.png in Resources */,
+				DE43BE0D1EBE2656000BDFFF /* Icon2.png in Resources */,
+				DE06944E1EB5364300AC26F4 /* FlowControlValve.png in Resources */,
+				DE0694541EB5364300AC26F4 /* PilotOperatedCheckValve.png in Resources */,
+				DE0694531EB5364300AC26F4 /* PilotFlowLine.png in Resources */,
+				DE06944C1EB5364300AC26F4 /* DirectionalValve.png in Resources */,
+				DE43BE111EBE2656000BDFFF /* Icon6.png in Resources */,
+				DE0694521EB5364300AC26F4 /* MeterIn:OutFCV.png in Resources */,
+				DE0694581EB5364300AC26F4 /* ProportionalDV.png in Resources */,
 				DE740B1C1EA9178A00CC9367 /* Assets.xcassets in Resources */,
 				DE740B1A1EA9178A00CC9367 /* Main.storyboard in Resources */,
+				DE06945B1EB5364300AC26F4 /* ValveActivationTypes.png in Resources */,
+				DE0694551EB5364300AC26F4 /* PilotOperatedDV.png in Resources */,
+				DE0694491EB5364300AC26F4 /* BallValve.png in Resources */,
+				DE06944B1EB5364300AC26F4 /* Cylinders.png in Resources */,
+				DE43BE0F1EBE2656000BDFFF /* Icon4.png in Resources */,
+				DE0694561EB5364300AC26F4 /* PressureReducingValves.png in Resources */,
+				DE0694451EB5364300AC26F4 /* 3WayBallValve.png in Resources */,
+				DE0694441EB5364300AC26F4 /* 2PositionDetentValve.png in Resources */,
+				DE0694571EB5364300AC26F4 /* PressureReliefValve.png in Resources */,
+				DE0694511EB5364300AC26F4 /* ManifoldAssemblyBoundaries.png in Resources */,
+				DE06944D1EB5364300AC26F4 /* ElectricallyOperatedPRV.png in Resources */,
+				DE43BE0E1EBE2656000BDFFF /* Icon3.png in Resources */,
+				DE06945A1EB5364300AC26F4 /* ShuttleValve.png in Resources */,
+				DE06945C1EB5364300AC26F4 /* WaterCooler.png in Resources */,
+				DE43BE101EBE2656000BDFFF /* Icon5.png in Resources */,
+				DE0694461EB5364300AC26F4 /* 4:3WayConnectedToTank.png in Resources */,
+				DE0694501EB5364300AC26F4 /* HydraulicFlowLine.png in Resources */,
+				DE0694281EB51DAC00AC26F4 /* Affinity Exports in Resources */,
+				DE0694481EB5364300AC26F4 /* Accumulators.png in Resources */,
+				DE0694471EB5364300AC26F4 /* 4:3WayPositionValve.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0694261EB514E500AC26F4 /* SubCategoryImages.swift in Sources */,
 				DE1DA7EB1EB37233002B8D4D /* SecondTableList.swift in Sources */,
 				DE740B171EA9178A00CC9367 /* FirstTableViewController.swift in Sources */,
+				DE0694241EB5053600AC26F4 /* ImageViewController.swift in Sources */,
 				DE41F63D1EAA41CF00573F8F /* SecondTableViewController.swift in Sources */,
 				DE740B151EA9178A00CC9367 /* AppDelegate.swift in Sources */,
 			);

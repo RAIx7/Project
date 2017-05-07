@@ -12,6 +12,7 @@ import UIKit
 class SecondTableViewController: UITableViewController {
     
     var secondCategoriesArray = [String]()
+    var subCategoryImageArray = [UIImage]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,8 +28,26 @@ class SecondTableViewController: UITableViewController {
         
         var cell = self.tableView.dequeueReusableCell(withIdentifier: "cellTwo", for: indexPath) as UITableViewCell
         cell.textLabel?.text = secondCategoriesArray[indexPath.row]
-        
+        cell.textLabel?.numberOfLines = 0
+        cell.textLabel?.font = UIFont(name: "Avenir", size: 17.0)
+
         return cell
+        
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 60
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        var indexPath : IndexPath = self.tableView.indexPathForSelectedRow!
+        var destinationViewController = segue.destination as! ImageViewController
+        
+        destinationViewController.subCategoryImage = subCategoryImageArray[indexPath.row]
+        destinationViewController.title = secondCategoriesArray[indexPath.row]
+
+        
         
     }
 }
